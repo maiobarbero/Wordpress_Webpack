@@ -1,5 +1,15 @@
-@import "utils/reset.scss";
-@import "utils/fonts.scss";
+@import './utils/variables.scss';
+@import './utils/functions.scss';
+@import './utils/mixins.scss';
+@import './utils/responsive.scss';
+@import './utils/reset.scss';
+@import './utils/fonts.scss';
 
-@import "components/header.scss";
-@import "components/footer.scss";
+@import './components/header.scss';
+@import './components/footer.scss';
+@import './components/search.scss';
+
+@import './pages/404.scss';
+@import './pages/article.scss';
+@import './pages/home.scss';
+@import './pages/page.scss';
